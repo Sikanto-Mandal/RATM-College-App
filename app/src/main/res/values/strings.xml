@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">RATM</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/latobold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/latoregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/latolight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="ratm">Rajiv Academy For Technology And Management</string>
+    <string name="university"><a href = "https://aktu.ac.in/"> University Website</a>
+    </string>
+
+    <string name="address"><u><b>Address: </b>National Highway # 2, Mathura, Delhi Road, P.O, Chhatikara, Uttar Pradesh 281001 </u> </string>
+
+    <string name="about_college">Rajiv Academy for Technology and Management (RATM), the pre-eminent institute of higher learning is pursuing excellence in professional education in diverse fields of Commerce, Management, Technology, Basic Sciences, Library and Information Sciences and Education since 1998 in the holy city of Mathura under the flagship institution of R.K. Education Hub. The courses running at RATM are duly (approved by AICTE, UGC, NCTE and State Government and affiliated to Dr. A. P. J. Abdul Kalam Technical University, Lucknow and Dr B R Ambedkar University, Agra) as per norms.
+The splendid architecture of RATM campus is spread over 5 acres of beautiful lush green land. The institute has spacious class rooms equipped with all modern teaching aids, fully air-conditioned conference rooms, the state of the art computer labs with round the clock internet facility on each terminal and enriched library. The institute also facilitates well cuisine and hygienic cafeteria.</string>
+    <string name="phone"> <b> Call:  099975 96633 </b> </string>
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="website">
+        <item>AKTU</item>
+        <item>DBRAU</item>
+
+    </string-array>
+
+</resources>

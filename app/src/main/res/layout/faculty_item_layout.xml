@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardMaxElevation="@dimen/text_size"
+    android:layout_margin="10dp"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="@dimen/text_margin"
+
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:background="@drawable/gradient2"
+            android:orientation="vertical"
+
+
+            android:paddingStart="12dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:fontFamily="@font/latobold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/teacherName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sikanto Mandal"
+                    android:fontFamily="@font/latobold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Post : "
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/latoregular"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teacherPost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Principal"
+
+                    android:fontFamily="@font/latoregular"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/teacherEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sikanto@gmail.com"
+                    android:textColor="@color/textColor"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/latoregular"
+                     />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/teacherImage"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+
+            android:background="@drawable/gradient1"
+            android:layout_gravity="center_vertical"
+
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_ratm" />
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "365511277590",
+    "firebase_url": "https://ratm-app-default-rtdb.firebaseio.com",
+    "project_id": "ratm-app",
+    "storage_bucket": "ratm-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365511277590:android:9109e51c211269d013c937",
+        "android_client_info": {
+          "package_name": "com.example.ratmadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365511277590-pkc1q0mj2q6i5vfvn9huphue3usq1tc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvmzz-boRfrycuEeMw9KIyQiZqnEWZlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365511277590-pkc1q0mj2q6i5vfvn9huphue3usq1tc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365511277590:android:d0fe6d0c748dc9a213c937",
+        "android_client_info": {
+          "package_name": "com.example.ratmstudents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365511277590-pkc1q0mj2q6i5vfvn9huphue3usq1tc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvmzz-boRfrycuEeMw9KIyQiZqnEWZlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365511277590-pkc1q0mj2q6i5vfvn9huphue3usq1tc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

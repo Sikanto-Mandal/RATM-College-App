@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+       tools:context=".home.HomeFragment">
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.codebyashish.autoimageslider.AutoImageSlider
+                android:id="@+id/autoImageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:ais_auto_sliding="true"
+                app:ais_slide_delay="1000" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text = "@string/ratm"
+               android:padding="12dp"
+                android:gravity="center"
+                android:textSize="@dimen/title_size"
+                android:background="@drawable/gradient1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/background_dark"
+                android:fontFamily="@string/bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "@string/about_college"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:fontFamily="@string/regular"
+                />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin ="36dp"
+                android:background="@color/teal_200">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin ="36dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "DEPARTMENTS"
+                    android:layout_marginTop="36dp"
+                    android:textSize="@dimen/title_size2"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/white"
+                    android:fontFamily="@string/bold"
+                    />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:padding="2dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="MCA Department"
+                            android:gravity="center"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/text_size0" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="MBA Department"
+                            android:padding="2dp"
+                            android:background="@color/teal_200"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size0" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="BSc Department"
+                            android:padding="2dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/text_size0" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="BCA Department"
+                            android:padding="2dp"
+                            android:background="@color/teal_200"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:textSize="@dimen/text_size0" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="BBA Department"
+                            android:padding="2dp"
+
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/text_size0" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="BEd Department"
+                            android:padding="2dp"
+                            android:background="@color/teal_200"
+                            android:textColor="@color/white"
+                            android:gravity="center"
+                            android:textSize="@dimen/text_size0" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/grey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="8dp"
+                            android:layout_marginHorizontal="@dimen/text_margin"
+                            android:layout_marginTop="@dimen/text_margin"
+                            android:fontFamily="@string/bold"
+                            android:text="MEd Department"
+                            android:padding="2dp"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/text_size0" />
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text = "Contact Details"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/title_size"
+                    android:background="@color/red"
+                    android:textColor="@color/white"
+                    android:fontFamily="@string/bold"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/ratm"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:gravity="center"
+                    android:textColor="@color/red"
+                    android:fontFamily="@string/bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/address"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+
+                    android:fontFamily="@string/regular"
+                    />
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "@string/phone"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/design_default_color_error"
+                    android:fontFamily="@string/regular"
+                    />
+                <ImageView
+                    android:id="@+id/map"
+                    android:padding="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:src="@drawable/rajiv_map"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
